@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "info-oge-lib"
+version = "0.1.0"
+description = ""
+authors = ["marakhd <marakin09@mail.ru>"]
+repository = "https://github.com/marakhd/notifier-craft"
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
