@@ -3,12 +3,17 @@ name = "info-oge-lib"
 version = "0.1.0"
 description = ""
 authors = ["marakhd <marakin09@mail.ru>"]
-repository = "https://github.com/marakhd/notifier-craft"
+repository = "https://github.com/marakhd/info-oge"
 readme = "README.md"
 license = "MIT"
+packages = [
+    {include = "info_oge"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+networkx = "^3.4.2"
+g4f = "^0.3.9.7"
 
 
 [build-system]
